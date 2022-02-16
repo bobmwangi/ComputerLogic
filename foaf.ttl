@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Kelvin Mwangi" ;
+  foaf:title "Mr." ;
+  foaf:givenname "Kelvin" ;
+  foaf:family_name "Mwangi" ;
+  foaf:nick "Bob" ;
+  foaf:mbox_sha1sum "f371b79886ecb7ceb98b5c642b3ff87c336f0ebf" ;
+  foaf:phone <tel:0714444744> ;
+  foaf:workplaceHomepage <http://njh.me/JKUAT> ;
+  foaf:workInfoHomepage <http://njh.me/JKUAT.ac.ke> ;
+  foaf:schoolHomepage <http://njh.me/JKUAT Uni> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Tom Destiny" ;
+    foaf:mbox_sha1sum "ccdd7984937f42ce8d94185ecccd661db7e4e282"
+  ], [
+    a foaf:Person ;
+    foaf:name "Henry Maguire" ;
+    foaf:mbox_sha1sum "6cbf65e990a904fc7be9b1fd41586cbfeb8246a1"
+  ], [
+    a foaf:Person ;
+    foaf:name "Serah Wanja" ;
+    foaf:mbox_sha1sum "361d5aa8b0d1b02729cc3577930f3f6113ac38b3"
+  ] .
